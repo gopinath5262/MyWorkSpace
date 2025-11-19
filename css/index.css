@@ -8,3 +8,6 @@
     font-family: productsans;
     src: url();
 }
+body{
+    display: flex;
+}
