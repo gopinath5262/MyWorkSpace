@@ -130,7 +130,6 @@ ul {
 
 .error-page-content p {
     font-size: 18px;
-    color: var(--dark-gray);
     max-width: 600px;
     margin: 0 auto;
     line-height: 1.5;
@@ -156,23 +155,28 @@ ul {
     width: 200px;
     margin-top: -10px;
 }
+#matter{
+    font-weight: bold;
+}
 .footer-top-section {
     margin: 0 auto;
+    height: 28vw;
+    width: 100vw;
     padding: 0 20px 30px;
     display: flex;
     gap: 50px;
-    align-items: flex-start;
+    align-items: center;
    background-color: lightgray;
 }
 
 .logo-and-newsletters {
     width: 300px;
+    position: relative;
+    left: 50px;
 }
 
 .footer-logo {
-    font-family: var(--logo-font);
     font-size: 28px;
-    color: var(--primary-color);
     font-weight: bold;
     position: relative;
     margin-bottom: 25px;
@@ -181,52 +185,51 @@ ul {
 
 .newsletter-button {
     background-color: white;
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+    border: 1px solid red;
     padding: 12px 20px;
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
     border-radius: 4px;
     width: 100%;
-    max-width: 200px;
     text-align: center;
     margin-bottom: 30px;
     transition: background-color 0.2s;
 }
 
 .newsletter-button:hover {
-    background-color: var(--light-gray);
+    background-color: orangered;
 }
 
 .follow-us p {
     font-size: 14px;
-    color: var(--dark-gray);
     margin-bottom: 10px;
-    font-weight: bold;
+    color: gray;
 }
 
 .social-icons {
     display: flex;
     gap: 15px;
     font-weight: lighter;
+    color: gray;
 }
 
 .social-icons a {
     font-size: 18px;
-    color: var(--dark-gray);
     transition: color 0.2s;
 }
 
 .social-icons a:hover {
-    color: var(--primary-color);
+    color:orangered;
 }
 
 .footer-links {
     display: flex;
-    gap: 100px; 
+    align-items: center;
+    justify-content: space-evenly; 
     flex-grow: 1;
     padding-left: 50px; 
+    color: #222;
 }
 
 .link-column {
@@ -237,29 +240,27 @@ ul {
 }
 
 .link-column a {
-    color: var(--text-color);
     white-space: nowrap;
     transition: color 0.2s;
 }
 
 .link-column a:hover {
-    color: var(--primary-color);
+    color: orangered;
 }
 
 
 .footer-bottom-section {
     border-top: 1px solid #eee;
-    padding: 15px 20px;
-    background-color: var(--light-gray); 
+    padding: 15px 100px;
+    background-color:#eee; 
     text-align: left;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .footer-bottom-section p {
     max-width: 1200px;
-    margin: 0 auto;
-    font-size: 12px;
-    color: var(--dark-gray);
+    margin: 0 50px;
+    font-size: 18px;
 }
 
 .footer-bottom-section p strong {
@@ -287,6 +288,7 @@ ul {
 }
 .footer_list{
     font-weight: bold;
+    padding-bottom: 6px;
 }
 .footer_list_items{
     font-weight: lighter;
